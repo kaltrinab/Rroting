@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* The sidebar menu */
+#side3 {
+  width:70px;
+  top: 0;
+  position: fixed;
+  margin-top: 0px;
+  background-color: rgb(100,65,164);
+  color: black;
+}
+#center{
+
+ text-align:  center;
+}
+
+/* Style page content */
+.main {
+  margin-left: 160px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+/* This is the style for the home page */
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+ 
